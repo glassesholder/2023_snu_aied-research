@@ -1,4 +1,4 @@
-PATH = '/content/drive/MyDrive/modelsave/model1.pt'
+PATH = './model_last.pt'
 
 # 모델을 저장할 경로를 지정합니다.
 model_save_path = PATH
@@ -14,7 +14,7 @@ checkpoint = {
 # 저장합니다.
 torch.save(checkpoint, model_save_path)
 
-model_load_path = '/content/drive/MyDrive/modelsave/model1.pt'
+model_load_path = './model_last.pt'
 
 # 미리 정의한 모델 아키텍처를 생성합니다.
 loaded_model = LMForMultiLabelClassification(LM, num_labels=5)

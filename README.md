@@ -1,10 +1,16 @@
-# 수학문제 인지요소 분류기 (AIED Project 5)
+# 🏆 수학문제 인지요소 분류기
+
+**2023 서울대학교 사범대학 AI융합교육 학생 연구 장기 프로젝트 동상 수상작**
 
 AI 기반 수학 문제 이미지 분석 및 인지요소 자동 분류 시스템
+
+![Screenshot](images/screenshot.png)
 
 ## 📋 프로젝트 개요
 
 본 프로젝트는 수학 문제 이미지를 업로드하면 해당 문제가 다루는 수학적 개념을 자동으로 분류해주는 AI 시스템입니다. 특히 **순환소수와 유한소수** 관련 개념들을 6가지 카테고리로 분류하여 교육적 활용이 가능합니다.
+
+> 🎉 **수상 내역**: [2023 서울대학교 사범대학 AI융합교육 학생 연구 장기 프로젝트 동상](https://aiednet.kr/sub_posting/posting_view.php?number=317&dp1=competition)
 
 ### 🎯 주요 기능
 - 📸 **이미지 업로드**: 수학 문제 이미지 업로드
@@ -140,9 +146,24 @@ def preprocess_question(self, text):
 
 ## 👥 개발팀
 
-서울대학교 수학교육과 17학번 최동민
-서울대학교 수학교육과 18학번 이효준
+| 개발자 | 소속 | GitHub |
+|--------|------|--------|
+| 최동민 | 서울대학교 수학교육과 17학번 | [![GitHub](https://img.shields.io/badge/GitHub-Dongmin--Choi-181717?style=flat&logo=github)](https://github.com/unknownburphy) |
+| 이효준 | 서울대학교 수학교육과 18학번 | [![GitHub](https://img.shields.io/badge/GitHub-Hyojun--Lee-181717?style=flat&logo=github)](https://github.com/glassesholder) |
 
 ## 📄 라이선스
 
 이 프로젝트는 교육 목적으로 개발되었습니다.
+
+---
+
+<div align="center">
+
+**🎓 Seoul National University College of Education**
+
+**AI융합교육 학생 연구 장기 프로젝트**
+
+[![SNU](https://img.shields.io/badge/Seoul%20National%20University-003876?style=for-the-badge&logo=university&logoColor=white)](https://snu.ac.kr)
+[![Award](https://img.shields.io/badge/Bronze%20Award-CD7F32?style=for-the-badge&logo=trophy&logoColor=white)](https://example-award-site.snu.ac.kr/2023/projects)
+
+</div>
